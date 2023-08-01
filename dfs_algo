@@ -1,0 +1,54 @@
+ #include<bits/stdc++.h>
+ 
+ #define int long long int
+ #define F first
+ #define S second
+ #define pb push_back
+ #define que_max priority_queue<int>
+ #define que_min priority_queue<int,vector<int>,greater<int>>;
+  #define endl "\n"
+  using namespace std;
+  
+  const int N=1e5+10;
+  vector<int>Graph[N];
+  vector<int>visited(N,0);
+
+  void dfs(int i)
+  {
+
+       visited[i]=1;
+       for(auto it:Graph[i])
+       {
+          if(!visited[it])
+          {
+            dfs(it);
+          }
+       }
+      
+      return;
+  }
+
+
+
+
+
+  int32_t main()
+  {
+  #ifndef ONLINE_JUDGE
+      freopen("input.txt","r",stdin);
+      freopen("output.txt","w",stdout);
+  #endif
+  
+
+
+
+
+   int n;
+   cin>>n;
+
+
+ 
+    
+ 
+      return 0;
+  }
