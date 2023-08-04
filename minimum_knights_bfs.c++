@@ -2,7 +2,7 @@
 //Problem link:-https://www.spoj.com/problems/NAKANJ/
 
 
-
+// iss problem m humne ye sikha ki agr single source se distance nikalni ho yah fr path bnane k liye v hum bfs ka use kr skte h
 
 
 #include<bits/stdc++.h>
